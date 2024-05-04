@@ -384,4 +384,14 @@ nav{
         margin-top: 13px;
         
     }
+    .old-comment{
+        display: none;
+    }
+    .play-video hr{
+        margin-bottom: 10;
+    }
+    .yorumyap{
+        display: none;
+    }   
+    
 }
