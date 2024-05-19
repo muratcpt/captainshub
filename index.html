@@ -368,6 +368,19 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+       
+        function checkFirstVisit() {
+          var isFirstVisit = localStorage.getItem("firstVisit");
+          if (!isFirstVisit) {
+            
+            alert("PDF'ler kısmımız güncellenmistir mutlaka goz atınız. !");
+            localStorage.setItem("firstVisit", "done");
+          }
+        }
+        
+        
+        window.onload = checkFirstVisit;
+        </script>
 </body>
 </html>
