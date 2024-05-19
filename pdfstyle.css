@@ -1,0 +1,6 @@
+.pdfcontainer{
+    display: flex;
+}
+.pdfwrapper {
+    margin-right: 20px; /* İstediğiniz boşluk için */
+  }
