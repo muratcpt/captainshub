@@ -2,5 +2,19 @@
     display: flex;
 }
 .pdfwrapper {
-    margin-right: 20px; /* İstediğiniz boşluk için */
+    margin-right: 20px; 
   }
+  .pddfs {
+    width: 33%; 
+    height: 45%;
+  }
+  @media (max-width:768px) {
+
+    .pddfs{
+        width: 100%;
+        height: 45%;
+    }
+  }
+  
+  
+  
