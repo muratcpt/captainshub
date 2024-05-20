@@ -5,14 +5,15 @@
     margin-right: 20px; 
   }
   .pddfs {
-    width: 33%; 
-    height: 45%;
+    width: 49%; 
+    height: 55%;
+    margin-left: 10;
   }
   @media (max-width:768px) {
 
     .pddfs{
         width: 100%;
-        height: 45%;
+        height: 55%;
     }
   }
   
