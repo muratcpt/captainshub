@@ -32,7 +32,7 @@
             <a href="#pdkpage"><img src="images/pdk.png"><p>Prog Dil Kavramları</p></a>
             <a href="errorpage.html"><img src="images/bilhes.png"><p>Bilimsel Hesaplama</p></a>
             <a href="pdfs.html"><img src="images/pdf.png" alt=""><p>PDF'Ler</p></a>
-            <a href="errorpage.html"><img src="images/notes-icon.png" alt=""><p>Notlar</p></a>
+            <a href="exams.html"><img src="images/notes-icon.png" alt=""><p>Sınavlar</p></a>
             <hr>
         </div>
         <div class="lesson-containers shortcut-links">
@@ -467,10 +467,11 @@
           var isFirstVisit = localStorage.getItem("firstVisit");
           if (!isFirstVisit) {
             
-            alert("PDF'ler kısmımız güncellenmistir mutlaka goz atınız. !");
+            alert("Bulabildiğim sınavlar 'Sınavlar' kısmına eklenmistir. !");
             localStorage.setItem("firstVisit", "done");
           }
         }
+        
         
         
         window.onload = checkFirstVisit;
