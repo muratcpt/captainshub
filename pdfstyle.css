@@ -9,6 +9,9 @@
     height: 100%;
     margin-left: 10;
   }
+  .orn{
+    width: 49%;
+  }
   @media (max-width:768px) {
 
     .pddfs{
@@ -17,7 +20,7 @@
     }
     
   }
-  @media (max-width:1024px){
+  @media (max-width:1440px){
     a img{
       margin-left: 40%;
       margin-bottom: 10%;
@@ -26,6 +29,10 @@
     a p{
       line-height: 1.5;
       text-align: center;
+    }
+    .orn{
+      width: 100%;
+      margin: 0 0 5% 0;
     }
   }
   
